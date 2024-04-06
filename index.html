@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Univercity Calculatior</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="./style.css">
+</head>
+
+<body class=" bg-gray-800">
+    <div class=" bg-purple-600 ">
+        <h1 class=" py-3 text-[30px] text-center font-bold text-white">Univercity Calculator</h1>
+    </div>
+    <div class="w-full flex justify-center rounded-md">
+        <main class=" w-[470px] h-[500px] mx-auto rounded-md my-4">
+            <div class=" relative w-full mx-auto  pt-4">
+                <input type="text" value=" " class=" h-[60px] w-full appearance-none ring-1 border-r-0 rounded-lg bg-gray-300" />
+                <button class=" absolute right-0 h-[60px] ring-1 ring-[#c2410d] w-[60px] bg-[#c2410d]
+                text-white text-3xl 
+                rounded-r-lg">=</button>
+            </div>
+            <!-- 2nd row -->
+            <div class=" flex justify-end gap-3 pr-3 py-6">
+                <button class=" bg-[#c2410d] px-3 py-2 rounded-md text-white font-bold">Remove</button>
+                <button class=" bg-[#c2410d] px-6 py-2 rounded-md text-white font-bold">/</button>
+                <button class=" bg-[#c2410d] px-4 py-2 rounded-md text-white font-bold">+</button>
+                <button class=" bg-[#c2410d] px-3 py-2 rounded-md text-white font-bold">AC</button>
+            </div>
+            <!-- Button -->
+            <div class="flex justify-between pt-4 bg-white px-4 py-2 rounded-md my-2">
+                <div class="left w-2/4 flex  flex-col gap-4">
+                   <div class="1s flex justify-between">
+                    <button class=" bg-[#7F01FE] shadow-violet-800 shadow-md cursor-pointer w-[50px] h-[50px] px-3 py-2 rounded-md text-2xl text-white font-bold">A+</button>
+                    <button class=" bg-[#7f01fe] shadow-violet-800 shadow-md cursor-pointer w-[50px] h-[50px] px-3 py-2 rounded-md text-2xl text-white font-bold">A</button>
+                    <button class=" bg-[#7f01fe] shadow-violet-800 shadow-md cursor-pointer w-[50px] h-[50px] px-3 py-2 rounded-md text-2xl text-white font-bold">A-</button>
+                   </div>
+                   <div class="2nd flex justify-between">
+                    <button class=" bg-[#7f01fe] shadow-violet-800 shadow-md cursor-pointer w-[50px] h-[50px] px-3 py-2 rounded-md text-2xl text-white font-bold">B+</button>
+                    <button class=" bg-[#7f01fe] shadow-violet-800 shadow-md cursor-pointer w-[50px] h-[50px] px-3 py-2 rounded-md text-2xl text-white font-bold">B</button>
+                    <button class=" bg-[#7f01fe] shadow-violet-800 shadow-md cursor-pointer w-[50px] h-[50px] px-3 py-2 rounded-md text-2xl text-white font-bold">B-</button>
+                   </div>
+                   <div class="3rd flex justify-between">
+                    <button class=" bg-[#7f01fe] shadow-violet-800 shadow-md cursor-pointer w-[50px] h-[50px] px-3 py-2 rounded-md text-2xl text-white font-bold">C+</button>
+                    <button class=" bg-[#7f01fe] shadow-violet-800 shadow-md cursor-pointer w-[50px] h-[50px] px-3 py-2 rounded-md text-2xl text-white font-bold">C</button>
+                    <button class=" bg-[#7f01fe] shadow-violet-800 shadow-md cursor-pointer w-[50px] h-[50px] px-3 py-2 rounded-md text-2xl text-white font-bold">D</button>
+                   </div>
+                   <div class=" flex justify-end">
+                    <button class=" bg-[#c2410d] shadow-md shadow-purple-700 w-[50px] h-[50px] px-3 py-2 rounded-full text-[20px] text-white font-bold">F</button>
+                   </div>
+                </div>
+                <div class="right w-2/4 flex flex-col items-end gap-4 ">
+                    <button class=" bg-[#6b7280]  shadow-violet-800 shadow-md w-[40px] h-[40px] px-1 py-2 rounded-md text-white font-bold">6</button>
+                    <button class=" bg-[#6b7280]  shadow-violet-800 shadow-md w-[40px] h-[40px] px-3 py-2 rounded-md text-white font-bold">7</button>
+                    <button class=" bg-[#6b7280]  shadow-violet-800 shadow-md w-[40px] h-[40px] px-3 py-2 rounded-md text-white font-bold">8</button>
+                    <button class=" bg-[#6b7280]  shadow-violet-800 shadow-md w-[40px] h-[40px] px-3 py-2 rounded-md text-white font-bold">9</button>
+                </div>
+            </div>
+        </main>
+        
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
